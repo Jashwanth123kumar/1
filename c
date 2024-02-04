@@ -1602,6 +1602,7 @@ catch(Exception e)
 43.        Write a program using choice to check
 Case 1: Given string is palindrome or not
 Case 2: Given number is palindrome or not
+
 program:
 import java.util.Scanner;
 class casep
@@ -1679,8 +1680,10 @@ class casep
 }
     
 
-5.Write a program to convert Decimal number equivalent to Binary number and octal       numbers?
+44.Write a program to convert Decimal number equivalent to Binary number and octal       numbers?
 program:
+
+
 import java.util.*;
 class bin
 {
@@ -1708,20 +1711,12 @@ class bin
  }
 }
 }
-Sample Input:
-Decimal Number: 15
-Sample Output:
-Binary Number = 1111
-Octal = 17
-Test cases:
-1.	111
-2.	15.2
-3.	0
-4.	B12
-5.	1A.2
 
-6. In an organization they decide to give bonus to all the employees on New Year. A 5% bonus on salary is given to the grade A workers and 10% bonus on salary to the grade B workers. Write a program to enter the salary and grade of the employee. If the salary of the employee is less than $10,000 then the employee gets an extra 2% bonus on salary Calculate the bonus that has to be given to the employee and print the salary that the employee will get.
+
+45. In an organization they decide to give bonus to all the employees on New Year. A 5% bonus on salary is given to the grade A workers and 10% bonus on salary to the grade B workers. Write a program to enter the salary and grade of the employee. If the salary of the employee is less than $10,000 then the employee gets an extra 2% bonus on salary Calculate the bonus that has to be given to the employee and print the salary that the employee will get.
 program:
+
+
 import java.util.*;
 class salary
 {
@@ -1767,27 +1762,13 @@ class salary
     }
 }
        
-Sample Input & Output:
-Enter the grade of the employee: B
-Enter the employee salary: 50000
-Salary=50000
-Bonus=5000.0
-Total to be paid:55000.0
 
-Test cases:
-1.	Enter the grade of the employee: A
-Enter the employee salary: 8000
-1.	Enter the grade of the employee: C
-Enter the employee salary: 60000
-1.	Enter the grade of the employee: B
-Enter the employee salary: 0
-1.	Enter the grade of the employee: 38000
-Enter the employee salary: A
-1.	Enter the grade of the employee: B
-Enter the employee salary: -8000
 
-7. Write a program to print the first n perfect numbers. (Hint Perfect number means a positive integer that is equal to the sum of its proper divisors)
+
+46. Write a program to print the first n perfect numbers. (Hint Perfect number means a positive integer that is equal to the sum of its proper divisors)
 program:
+
+
 import java.util.Scanner;
 class Perfect
 {
@@ -1834,28 +1815,13 @@ class Perfect
  
        }
 }
-Sample Input:
-N = 3
-Sample Output:
-First 3 perfect numbers are: 6 , 28 , 496
-Test Cases:
-1.	N = 0
-2.	N = 5
-3.	N = -2
-4.	N = -5
-5.	N = 0.2
 
-8.Write a program to print the first n perfect numbers. (Hint Perfect number means a positive integer that is equal to the sum of its proper divisors)
-Sample Input:
-N = 3
-Sample Output:
-First 3 perfect numbers are: 6 , 28 , 496
-Test Cases:
-1.	N = 0
-2.	N = 5
-3.	N = -2
-4.	N = -5
-5.	N = 0.2
+
+
+
+47.Write a program to print the first n perfect numbers. (Hint Perfect number means a positive integer that is equal to the sum of its proper divisors)
+
+
 Program
 import java.util.Scanner;
         import java.lang.Math;
@@ -1913,8 +1879,12 @@ public class DAY2NPERFECTNUMBERS
         }
     }
 }
-9.Write a program to enter the marks of a student in four subjects. Then calculate the total and aggregate, display the grade obtained by the student. If the student scores an aggregate greater than 75%, then the grade is Distinction. If aggregate is 60>= and <75, then the grade is First Division. If aggregate is 50 >= and <60, then the grade is Second Division. If aggregate is 40>= and <50, then the grade is Third Division. Else the grade is Fail.
+
+
+48.Write a program to enter the marks of a student in four subjects. Then calculate the total and aggregate, display the grade obtained by the student. If the student scores an aggregate greater than 75%, then the grade is Distinction. If aggregate is 60>= and <75, then the grade is First Division. If aggregate is 50 >= and <60, then the grade is Second Division. If aggregate is 40>= and <50, then the grade is Third Division. Else the grade is Fail.
 program:
+
+
 import java.util.*; 
 public class Main 
 { 
@@ -1943,28 +1913,18 @@ public class Main
  System.out.println( "Total Percentage : " + percentage + "%"); 
  } 
 } 
-Sample Input & Output:
-Enter the marks in python: 90
-Enter the marks in c programming: 91
-Enter the marks in Mathematics: 92
-Enter the marks in Physics: 93
-Total= 366
-Aggregate = 91.5
-DISTINCTION
-Test cases:
-•	18, 76,93,65
-•	73,78,79,75
-•	98,106,120,95
-•	96,73, -85,95
-•	78,59.8,76,79
 
 
-10. Write a program to calculate tax given the following conditions:
+
+
+49. Write a program to calculate tax given the following conditions:
 •	If income is less than or equal to 1,50,000 then no tax
 •	If taxable income is 1,50,001 – 3,00,000 the charge 10% tax
 •	If taxable income is 3,00,001 – 5,00,000 the charge 20% tax
 •	If taxable income is above 5,00,001 then charge 30% tax
 program:
+
+
 import java.io.*;
 import java.util.*;
 public class Main
@@ -2011,19 +1971,12 @@ public class Main
 	}
 }
 
-Sample Input:
-Enter the income:200000
-Sample Output:
-Tax= 20000
-Test cases:
-1.	400700
-2.	2789239
-3.	150000
-4.	00000
-5.	-125486
 
-11.Write a program to enter the marks of a student in four subjects. Then calculate the total and aggregate, display the grade obtained by the student. If the student scores an aggregate greater than 75%, then the grade is Distinction. If aggregate is 60>= and <75, then the grade is First Division. If aggregate is 50 >= and <60, then the grade is Second Division. If aggregate is 40>= and <50, then the grade is Third Division. Else the grade is Fail.
+
+50.Write a program to enter the marks of a student in four subjects. Then calculate the total and aggregate, display the grade obtained by the student. If the student scores an aggregate greater than 75%, then the grade is Distinction. If aggregate is 60>= and <75, then the grade is First Division. If aggregate is 50 >= and <60, then the grade is Second Division. If aggregate is 40>= and <50, then the grade is Third Division. Else the grade is Fail.
 program
+
+
 import java.util.*;
 public class grade{
     public static void main(String[] args) {
@@ -2094,23 +2047,14 @@ public class grade{
 
     }
 }
-Sample Input & Output:
-Enter the marks in python: 90
-Enter the marks in c programming: 91
-Enter the marks in Mathematics: 92
-Enter the marks in Physics: 93
-Total= 366
-Aggregate = 91.5
-DISTINCTION
-Test cases:
-1.	18, 76,93,65
-2.	73,78,79,75
-3.	98,106,120,95
-4.	96,73, -85,95
-5.	78,59.8,76,79
 
-12. Write a program to print the multiplication table of number m up to n
+
+
+
+51. Write a program to print the multiplication table of number m up to n
 program:
+
+
 import java.util.Scanner;
 class mul
 {
@@ -2139,24 +2083,11 @@ class mul
     
     
    
-Sample Input:
-M = 4
-N = 5
-Sample Output:
-1x4=4
-2x4=8
-3x4=12
-4x4=16
-5x4=20
-Test cases:
-1.	M = 6, N = -3
-2.	M = -3, N = 5
-3.	M = 4, N = 0
-4.	M = 0, N = 0
-5.	M = -5, N = -5
 
-13. Write a program to read the numbers until -1 is encountered. Find the average of positive numbers and negative numbers entered by user.
+
+52. Write a program to read the numbers until -1 is encountered. Find the average of positive numbers and negative numbers entered by user.
  program:
+
          import java.util.*;
 class positive
 {
@@ -2197,29 +2128,13 @@ class positive
         }
     }
 }
-Sample Input:
-Enter -1 to exit…
-Enter the number: 7
-Enter the number: -2
-Enter the number: 9
-Enter the number: -8
-Enter the number: -6
-Enter the number: -4
-Enter the number: 10
-Enter the number:  -1
-Sample Output:
-The average of negative numbers is: -5.0
-The average of positive numbers is : 8.66666667
-Test cases:
-1.	-1,43, -87, -29, 1, -9
-2.	73, 7-6,2,10,28,-1
-3.	-5, -9, -46,2,5,0
-4.	9, 11, -5, 6, 0,-1
-5.	-1,-1,-1,-1,-1
 
 
-14. Write a program to read a character until a * is encountered. Also count the number of uppercase, lowercase, and numbers entered by the users.
+
+53. Write a program to read a character until a * is encountered. Also count the number of uppercase, lowercase, and numbers entered by the users.
 program:
+
+
 import java.util.Scanner;
 class alpha
 {
@@ -2246,29 +2161,13 @@ class alpha
 
  }
  }
-Sample Input:
-Enter * to exit…
-Enter any character: W
-Enter any character: d
-Enter any character: A
-Enter any character: G
-Enter any character: g
-Enter any character: H
-Enter any character: *
-Sample Output:
-Total count of lower case:2
-Total count of upper case:4
-Total count of numbers =0
-Test cases:
-1.	1,7,6,9,5
-2.	S, Q, l, K,7, j, M
-3.	M, j, L, &, @, G
-4.	D, K, I, 6, L, *
-5.	*, K, A, e, 1, 8, %, *
 
 
-15. Write a program to calculate the factorial of number using recursive function.
+
+54. Write a program to calculate the factorial of number using recursive function.
 program:
+
+
 import java.util.Scanner;
 class fact1
 {
@@ -2300,20 +2199,13 @@ class fact1
  return output;
  }
 }
-Sample Input & Output:
-Enter the value of n: 6
-Sample Input & Output:
-The factorial of 6 is: 720
-Test cases:
-1.	N = 0
-2.	N = -5
-3.	N = 1
-4.	N = M
-5.	N = %
 
 
-16. Write a Program to Find the Nth Largest Number in a array.
+
+55. Write a Program to Find the Nth Largest Number in a array.
 program:
+
+
 import java.util.*;
  class large 
 {
@@ -2345,22 +2237,11 @@ catch(Exception e)
 }
 }
  }
-Sample Input:
-List  : {14, 67, 48, 23, 5, 62}
-N = 4
-Sample Output:
-4th Largest number: 23
 
-Test cases:
-1.	N = 0
-2.	N = -5
-3.	N = 1
-4.	N = M
-5.	N = %
 
-17. Write a program to convert the Binary to Decimal, Octal
 
-program:
+56. Write a program to convert the Binary to Decimal, Octal
+
 import java.util.Scanner;
 
 public class binarytodecimaloctalhexadecimal {
@@ -2380,20 +2261,13 @@ public class binarytodecimaloctalhexadecimal {
     }
 
 }
-Sample Input:
-Given Number: 1101
-Sample Output:
-Decimal Number: 13
-Octal:15
-Test cases:
-1.	211
-2.	11011
-3.	22122
-4.	111011.011
-5.	1010.0101
 
-18. Write a program to find the number of special characters in the given statement
+
+
+57. Write a program to find the number of special characters in the given statement
 program:
+
+
 import java.util.Scanner;
 
 public class DAY3SPECIALCHARACTERS{
@@ -2425,13 +2299,13 @@ public class DAY3SPECIALCHARACTERS{
         System.out.println("Number of Special Characters   =  " + spl);
     }
 }
-Sample Input:
-Given statement: Modi Birthday @ September 17, #&$% is the wishes code for him.
-Sample Output:
-Number of special Characters: 5
 
-19. Write a Program to Remove the Duplicate Items from a array.
+
+
+58. Write a Program to Remove the Duplicate Items from a array.
 program:
+
+
 import java.util.*;
 public class duplicate
 {
@@ -2472,22 +2346,14 @@ class SortArr {
         System.out.println(list);
     }
 }
-Sample Input:
-Enter the number of elements in array:7
-Enter element1:10
-Enter element2:20
-Enter element3:20
-Enter element4:30
-Enter element5:40
-Enter element6:40
-Enter element7:50
-Sample Output:
-Non-duplicate items:
-[10, 20, 30, 40, 50]
 
-20. Bank is a class that provides method to get the rate of interest. But, rate of interest may differ according to banks. For example, SBI, ICICI and AXIS banks are providing 8.4%, 7.3% and 9.7% rate of interest. Write a Java program for above scenario.
+
+
+59. Bank is a class that provides method to get the rate of interest. But, rate of interest may differ according to banks. For example, SBI, ICICI and AXIS banks are providing 8.4%, 7.3% and 9.7% rate of interest. Write a Java program for above scenario.
 Sample Input SBI, 8.4
 program:
+
+
 import java.io.*;
 import java.util.*;
 class Bank
@@ -2571,17 +2437,13 @@ class DAY4BANKINTEREST
     }
 }
 
-Sample Output 
-Test case 
-•	SBI,  8.3
-•	ICICI, 7.3
-•	AXIS, 9.7
-•	SBI, 8.6
-•	AXIX, 7.6
 
-21. Bring out the situation in which member names of a subclass hide members by the same name in the super class. How it can be resolved? Write Suitable code in Java and 
+
+60. Bring out the situation in which member names of a subclass hide members by the same name in the super class. How it can be resolved? Write Suitable code in Java and 
 Implement above scenario with the Parametrized Constructor (accept int type parameter) of the Super Class can be called from Sub Class Using super () and display the input values provided.
 program:
+
+
 import java.io.*;
         import java.util.*;
 class base
@@ -2634,23 +2496,12 @@ class DAY5SUPERCLASSSUBCLASS
     }
 }
 
-Sample Input : 100, 200
-Sample Output : 100, 200
-Test Cases
-•	10, 20
-•	-20, -30
-•	0, 0
-•	EIGHT FIVE
-•	10.57, 12.58    
-22. Display Multiplication table for 5 and 10 using various stages of life cycle of the thread by generating a suitable code in Java.
-Sample Input 5, 10
-5 X 1 = 5
-5 X 2 =10
- ….
-10 X 1 =10
-10 X 2 = 20
-….
+
+
+61. Display Multiplication table for 5 and 10 using various stages of life cycle of the thread by generating a suitable code in Java.
 program:
+
+
 import java.util.*;
 public class multiplicationtable5and10
 {
@@ -2692,15 +2543,13 @@ public class multiplicationtable5and10
 
     }
 }
-Test Cases:
-•	10, 20
-•	-10, -30
-•	0, 0
-•	SIX, SIX
-•	9.8, 9.6
 
-23. Using the concepts of thread with implementing Runnable interface in Java to generate Fibonacci series.
+
+
+62. Using the concepts of thread with implementing Runnable interface in Java to generate Fibonacci series.
 program:
+
+
 import java.io.*;
 public class b_fibanocci
 {
@@ -2731,17 +2580,13 @@ public class b_fibanocci
         }
     }
 }
-Sample Input : 5 
-Sample Output : 0 1 1 2 3 …..
-Test Cases
-•	7
-•	-10
-•	0
-•	EIGHT FIVE
-•	12.65    
 
-24. Generate a Java code to find the sum of N numbers using array and throw ArrayIndexOutOfBoundsException when the loop variable beyond the size N.  
+
+
+63. Generate a Java code to find the sum of N numbers using array and throw ArrayIndexOutOfBoundsException when the loop variable beyond the size N.  
 program:
+
+
 import java.util.Scanner;
 
 public class c_sum_of_numbers {
@@ -2770,20 +2615,13 @@ public class c_sum_of_numbers {
     }
 
 }
-Sample Input : 5 
-1 2 3 4 5
-
-Sample Output : 15
-Test Cases
-•	4, 10
-•	-10
-•	0
-•	EIGHT SEVEN
-•	12.68  
 
 
-25. Using the concepts of thread with implementing Runnable interface in Java to find whether a given number is prime or not.
+
+64. Using the concepts of thread with implementing Runnable interface in Java to find whether a given number is prime or not.
 program:
+
+
 import java.util.*;
 public class threprim implements Runnable
 {
@@ -2834,18 +2672,11 @@ public class threprim implements Runnable
     }
 }
 
-Sample Input : 5 
-Sample Output : 5 is Prime
 
-Sample Output : 15
-Test Cases
-•	4
-•	-10
-•	0
-•	EIGHT SEVEN
-•	11.48
-•	26.  Given a string s consisting of words and spaces, return the length of the last word in the string. A word is a maximal substring consisting of non-space characters only. There will be at least one word, consists of only English letters and spaces ' '. 
+65.  Given a string s consisting of words and spaces, return the length of the last word in the string. A word is a maximal substring consisting of non-space characters only. There will be at least one word, consists of only English letters and spaces ' '. 
 program:
+
+
 import java.util.*;
 public class d_last_word {
     public static void main(String[] args){
@@ -2870,7 +2701,747 @@ public class d_last_word {
             System.out.println("enter valid input.");
         }
     }
+}                         
+
+                                  
+
+                                      
+                                        HARD QUESTIONS
+
+
+
+1.	Write a Java Program to Convert a Given Number of Days in Terms of Years, Weeks & Days.
+PROGRAM
+
+
+import java.util.*;
+import java.io.*;
+
+class yearsweeksdays
+{
+    public static void main(String args[])
+    {
+        try
+        {
+            int d,y,w, y1;
+            Scanner sc= new Scanner(System.in);
+            int nod = sc.nextInt();
+            if(nod <=0)
+                throw new ArithmeticException("Invalid due to zero/negative value");
+
+            y = nod/365;
+            y1 = nod%365;
+            w = y1/7;
+            d = y1%7;
+            System.out.println("Year " + y);
+            System.out.println("Weeks" + w);
+            System.out.println("Days" + d);
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("Invalid due to zero/negative value");
+        }
+        catch(Exception e)
+        {
+            System.out.println("Invalid due to floating point");
+        }
+    }
 }
+
+
+
+2.Write a program to find the number of student users in the college, get the total users, staff users details from the client. Note for every 3 staff user there is one Non teaching staff user assigned by default. 
+PROGRAM
+
+
+import java.util.*;
+class staff
+{
+    public static void main(String[] args)
+    {
+        try
+        {
+            Scanner sc= new Scanner(System.in);
+            int c=0,d=0;
+            System.out.print("Total users: ");
+            int a= sc.nextInt();
+            System.out.print("Staff users: ");
+            int b= sc.nextInt();
+            if(a<0||b<0)
+            {
+                System.out.println("Enter a valid no.of.users");
+            }
+            else
+            {
+                c=b/3;
+                d=a-b-c;
+                System.out.println("Student users:" +d);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Enter the correct no.of.users");
+        }
+    }
+}
+
+
+
+3.Write a program to print number of factors and to print nth factor of the given number.
+PROGRAM
+
+
+import java.util.*;
+public class nth_factor
+{
+    public static void main(String[] args)
+    {
+        int num,n;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        num = sc.nextInt();
+        System.out.println("Enter N:");
+        n= sc.nextInt();
+        int i, count = 0;
+        for(i = 1; i <= num; i++)
+        {
+            if(num % i == 0)
+            {
+                count = count + 1;
+                if(count==n)
+                {
+                    System.out.println(n+" Factor is "+i);
+                }
+            }
+        }
+        System.out.print("\nTotal factors of " + num + " : " + count);
+    }
+}
+
+
+
+4.Write a program to print n prime numbers after nth Prime number
+PROGRAM
+
+
+import java.util.*;
+
+class NPRIMENUMBERSAFTERNTHPRIMENUMBER {
+    public static boolean checkInt(String n){
+        try{
+            int x = Integer.parseInt(n);
+            return true;
+        }
+        catch(NumberFormatException e){
+            System.out.println("Enter a Valid Integer.");
+            return false;
+        }
+    }
+    public static void main(String[] Args){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter N : ");
+        String n = sc.nextLine();
+
+        if(checkInt(n) == true){
+            int num = Integer.parseInt(n);
+            if(num > 0){
+                int arr[];
+                arr = new int[2*num];
+
+                int count=0,c=0,k=2,l=0;
+                while(l<2*num){
+                    count = 0;
+                    for(int j = 1;j<=k;j++){
+                        if(k%j == 0){
+                            count = count + 1;
+                        }
+                    }
+                    if(count <= 2){
+                        arr[l] = k;
+                        l++;
+                    }
+                    k++;
+                }
+
+                System.out.println("\nNth Prime : " + arr[num-1]);
+                System.out.println("N prime after " + arr[num-1] + " :");
+                for(int i = num;i<2*num;i++){
+                    System.out.print(arr[i] + "\t");
+                }
+            }
+            else{
+                System.out.println("Enter a Positive Integer");
+            }
+        }
+
+    }
+}
+
+
+
+5.Write a Program to create a list of all numbers in a range which are perfect squares and the sum of the digits of the number is less than 10.
+PROGRAM
+
+
+import java.util.*;
+class DAY2PERFECTSQUARES
+{
+    static void perfectSquares(int l, int r)
+    {
+        if(l<0 || r<0)
+        {
+            System.out.println("invalid input");
+        }
+        else if(l==r || l>r)
+        {
+            System.out.println("invalid input");
+        }
+        else{
+
+            for (int i = l; i <= r; i++)
+            {
+                if (Math.sqrt(i) == (int)Math.sqrt(i))
+                    System.out.print(i + " ");
+            }
+        }
+    }
+    public static void main (String[] args)
+    {
+        try
+        {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter lower number: ");
+            int l=sc.nextInt();
+            System.out.println("Enter upper number: ");
+            int r=sc.nextInt();
+            perfectSquares(l, r);
+
+        }
+
+        catch(ArithmeticException e)
+        {
+            System.out.println("invalid due to negative values");
+        }
+    }
+}
+
+
+6. Write a program to print unique permutations of a given number
+PROGRAM
+
+
+import com.sun.source.tree.TryTree;
+
+import java.util.HashSet;
+        import java.util.Scanner;
+        import java.util.Set;
+class DAY2PERMUTATION
+{
+    public static Set<String> getPermutation(String str)
+    {
+        Set<String> permutations = new HashSet<String>();
+        if (str == null)
+        {
+            return null;
+        } else if (str.length() == 0) {
+            permutations.add("");
+            return permutations;
+        }
+        char first = str.charAt(0);
+        String sub = str.substring(1);
+        Set<String> words = getPermutation(sub);
+        for (String strNew : words) {
+            for (int i = 0;i<=strNew.length();i++){
+                permutations.add(strNew.substring(0, i) + first + strNew.substring(i));
+            }
+        }
+        return permutations;
+    }
+    public static void main(String[] args) {
+
+            Scanner input = new Scanner(System.in);
+            System.out.print("Enter the number: ");
+            String data = input.nextLine();
+            System.out.println("Permutations of " + data + ": \n" + getPermutation(data));
+        }
+    }
+
+
+
+7. Write a Program to create an array with the First Element as the Number and Second Element as the Square of the Number.
+PROGRAM
+
+
+import java.util.Scanner;
+class DAY3ARRAYSQUAREROOT
+{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int ul,ll;
+        System.out.print("Enter the lower limit: ");
+        ll=sc.nextByte();
+
+        System.out.print("Enter the upper limit: ");
+        ul=sc.nextByte();
+        if(ll>ul)
+        {
+            System.out.print("Enter the valid limits");
+        }
+        if(ll<0 ||ul<0 ||(ll<0 &&ul<0 ))
+        {
+            System.out.print("Enter the valid limits");
+        }
+
+        else
+        {
+            System.out.print("[");
+            if(ll<ul){
+                for(int j=ll;j<=ul;j++){
+                    System.out.print("("+j+","+(int)Math.pow(j,2)+")");
+                    if(j<ul)
+                        System.out.print(",");
+                }
+            }
+            if(ul<ll){
+                for(int i=ll;i>=ul;i--){
+                    System.out.print("("+i+","+(int)Math.pow(i,2)+")");
+                    if(i>ul)
+                        System.out.print(",");
+                }
+            }
+            System.out.print("]");
+            if(ul==ll)
+                System.out.println("Both the limits are same");
+        }
+
+    }
+}
+
+
+
+8. Develop a JAVA code to display the balance. Include the following members:       
+•	Design a class to represent a bank account.
+•	Data  Members: Name of the depositor, Account number, Type of account(Savings/Current), Balance amount in the account(Minimum balance is Rs.500.00)               
+•	Methods: 
+1.	To read account number, Depositor name, Type of account.
+2.	To deposit an amount (Deposited amount should be added with it) 
+3.	To withdraw an amount after checking balance(Minimum balance must be Rs.500.00
+Note : Assume that balance amount = 10000
+PROGRAM
+
+
+import java.io.*;
+import java.util.*;
+class Account
+{
+    double balance;
+    Account()
+    {
+        balance = 0;
+    }
+    Account(double sum)
+    {
+        balance = sum;
+    }
+    double add(double sum)
+    {
+        balance += sum;
+        return sum;
+    }
+    double withdraw(double sum)
+    {
+        if (sum > balance) {
+            balance -= 5;
+            return -5;
+        }
+        else {
+            this.balance -= sum;
+            return balance; // Notice: always >= 0 (never < 0)
+        }
+    }
+    double inquire()
+    {
+        return balance;
+    }
+    double interest (double rate)
+    {
+        return rate * balance;
+    }
+}
+class DAY4BANKWORKINGCLASS
+{
+    public static void main(String args[])
+    {
+        try
+        {
+            Scanner s=new Scanner(System.in);
+
+            System.out.println("Enter account holder name:");
+            String s1=s.next();
+            System.out.println("Enter account type:");
+            String s2=s.next();
+            int b=0;
+            System.out.println("Enter the initial value");
+
+            b=s.nextInt();
+            Account A;
+            if (b==0){
+                A = new Account();
+            }
+            else{
+                A = new Account(b);
+            }
+
+            System.out.println("Enter the amount to withdraw");
+            b=s.nextInt();
+
+            double d = A.withdraw(b);
+            System.out.println("Account holder name:"+s1);
+            System.out.println("Account type:"+s2);
+            if (d == -5) {
+                System.out.println("Penaly RS. -5 is charged since insufficient balance");
+                System.out.println("Currrent balance" + A.inquire());
+            }
+            else{
+                System.out.println("Now balance after withdraw of"+ A.inquire() + "is" + d);
+            }
+            System.out.println("Interest for current balance" + A.inquire() + " is " +
+                    A.interest(0.006));
+        }
+        catch(Exception e)
+        {
+            System.out.println("Due to character exception");
+        }
+    }
+}
+
+
+9. Develop a code to Reverse and Add a Number until you get a Palindrome.   
+PROGRAM
+
+
+import java.util.Scanner;
+
+public class DAY3REVERSEANDADDUPTOPALINDROME
+{
+
+    static int reverseNumber(int number)
+    {
+        int reverse = 0;
+
+        int rem = 0;
+
+        while (number != 0)
+        {
+            rem = number % 10;
+
+            reverse = (reverse*10) + rem;
+
+            number = number/10;
+        }
+
+        return reverse;
+    }
+
+
+    static boolean checkPalindrome(int number)
+    {
+        int reverse = reverseNumber(number);
+
+        if(reverse == number)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+
+
+    static void reverseAndAdd(int number)
+    {
+        if(checkPalindrome(number))
+        {
+            System.out.println("Given Number is already a palindrome");
+        }
+        else
+        {
+            while (!checkPalindrome(number))
+            {
+                int reverse = reverseNumber(number);
+
+                int sum = number + reverse;
+
+                System.out.println(number+" + "+reverse+" = "+sum);
+
+                number = sum;
+            }
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        try
+        {
+            Scanner sc = new Scanner(System.in);
+
+            System.out.println("Enter Number : ");
+
+            int inputNumber = sc.nextInt();
+            if(inputNumber<0)
+            {
+                System.out.println("Enter positive number");
+            }
+            else
+            {
+                reverseAndAdd(inputNumber);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Enter a valid number");
+        }
+    }
+}
+
+
+10. Create Customer class with deposit() and withdraw() as synchronized methods. Declare AccountNo, AccName and Balance as Instance Variables inside the class. From the main class, Input the amount for withdraw() operation and if requested amount is not available in existing Balance amount, withdraw() method should be temporarily suspended using wait() method until deposit() method receives the input for amount, to be added in the existing Balance amount and then withdraw() would be completed in a successful manner. Develop the above scenario using Synchronization and Inter-Thread Communication.
+Note : existing Bank balance amount 10000
+Sample Input : 12000, 3000
+Sample Output : Withdraw operation success, balance amount 1000
+
+Test Cases
+1.	11000, 4000
+2.	-10000, -2000
+3.	0, 0
+4.	EIGHT SEVEN, FIVE
+5.	100.67, 200.68
+
+program:
+
+public class Main {
+    static class Customer {
+        private int accountNo;
+        private String accName;
+        private int balance = 10000;
+
+        public Customer(int accountNo, String accName) {
+            this.accountNo = accountNo;
+            this.accName = accName;
+        }
+
+        public synchronized void deposit(int amount) {
+            balance += amount;
+            System.out.println("Deposit operation success, balance amount: " + balance);
+            notify();  // Notify waiting threads that the deposit is complete
+        }
+
+        public synchronized void withdraw(int amount) {
+            if (balance < amount) {
+                System.out.println("Insufficient funds. Waiting for deposit...");
+                try {
+                    wait();  // Suspend the withdraw() method until deposit() is called
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            balance -= amount;
+            System.out.println("Withdraw operation success, balance amount: " + balance);
+        }
+    }
+
+    public static void main(String[] args) {
+        Customer customer = new Customer(123, "John Doe");
+
+        Thread withdrawThread = new Thread(() -> {
+            int withdrawAmount = 12000;
+            customer.withdraw(withdrawAmount);
+        });
+
+        Thread depositThread = new Thread(() -> {
+            int depositAmount = 3000;
+            customer.deposit(depositAmount);
+        });
+
+        withdrawThread.start();
+        depositThread.start();
+
+        try {
+            // Wait for both threads to complete
+            withdrawThread.join();
+            depositThread.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+
+
+11.	Given an integer n, return a string array answer (1-indexed) where:
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+answer[i] == "Fizz" if i is divisible by 3.
+answer[i] == "Buzz" if i is divisible by 5.
+answer[i] == i (as a string) if none of the above conditions are true.
+ 
+Example 1:
+Input: n = 3
+Output: ["1","2","Fizz"]
+
+Test Case
+Test Case	Inputs
+1.		n = 5
+2.		n = 10
+3.		n = 12
+4.		n = 18
+5.		n = 20
+PROGRAM
+
+
+
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        try
+        {
+            int n;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter the value");
+            n=sc.nextInt();
+            for (int i=1; i<=n; i++)
+            {
+                if (i%15==0)
+                    System.out.println("FizzBuzz");
+
+                else if (i%5==0)
+                    System.out.println("Buzz");
+
+                else if (i%3==0)
+                    System.out.println("Fizz");
+
+                else
+                    System.out.println(i);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Due to character exception");
+        }
+    }
+}
+
+
+12.	Write a Java program to find the common elements in two array of Positive integer
+Sample Input:
+[1, 2, 3, 4]
+[2, 4, 5, 6, 7]
+Expected output: [2, 4]
+Test Case
+Test Case	Inputs-1	Inputs-2
+1.		[1, 2, 3, 4]	[4,5,6,7,8]
+2.		[a, b, c, d]	[a, b, c, d]
+3.		[1, -2, 3, 4]	[1,-2,5,7,8]
+4.		[@, #, 34, 45]	[@,#,%,$,]
+5.		[45,78,56,89]	[92,34,56,-78,-90]		
+PROGRAM
+
+1) import java.util.Scanner;
+public class DAY5COMMONELEMENTSINTWOARRAYOFPOSITIVEINTEGERS
+{
+    public static void main(String args[])
+    {
+        try {
+            Scanner input = new Scanner(System.in);
+            int a1, b1;
+            System.out.print("Enter the size of array 1: ");
+            a1 = input.nextInt();
+            int a[] = new int[a1];
+            System.out.println("Enter the elements into the array: ");
+            for (int i = 0; i < a1; i++) {
+                a[i] = input.nextInt();
+            }
+            System.out.print("Enter the size of array 2: ");
+            b1 = input.nextInt();
+            int b[] = new int[b1];
+            System.out.println("Enter the elements into the array: ");
+            for (int i = 0; i < b1; i++) {
+                b[i] = input.nextInt();
+            }
+
+            for (int i = 0; i < a1; i++) {
+                for (int j = 0; j < b1; j++) {
+                    if (a[i] > 0 && b[j] > 0) {
+                        if (a[i] == b[j])
+                            System.out.print("common elements "+a[i] + " ");
+                    }
+                    else
+                        throw new Exception();
+                }
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.print("Enter a positive integer");
+        }
+
+
+    }
+}
+2) import java.util.Arrays;
+        import java.util.*;
+public class DAY5COMMONELEMENTSINTWOARRAYS
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String [] array1;
+        String [] array2;
+        int a,b;
+        int n1,n2,i,j;
+        System.out.print("Enter the no. of elements for array 1: ");
+        n1=sc.nextInt();
+        array1 = new String[n1];
+        System.out.print("Enter the elements:");
+        for(a=0;a<n1;a++)
+        {
+            array1[a]=sc.next();
+        }
+        System.out.print("Enter the no. of elements for array 2: ");
+        n2=sc.nextInt();
+        array2 = new String[n2];
+        System.out.print("Enter the elements:");
+        for(b=0;b<n2;b++)
+        {
+            array2[b]=sc.next();
+        }
+        System.out.println("Array1 : "+Arrays.toString(array1));
+        System.out.println("Array2 : "+Arrays.toString(array2));
+        for (i = 0; i < n1; i++)
+        {
+            for (j = 0; j < n2; j++)
+            {
+                if(array1[i].equals(array2[j]))
+                {
+
+                    System.out.println("Common element is : "+(array1[i]));
+                }
+
+            }
+        }
+
+    }
+}
+
+
+
+13.	Given a string s consisting of words and spaces, return the length of the last word in the string. A word is a maximal substring consisting of non-space characters only. There will be at least one word, consists of only English letters and spaces ' '. 
 Example 1:
 Input: s = "Hello World"
 Output: 5
@@ -2878,12 +3449,538 @@ Explanation: The last word is "World" with length 5.
 
 Test Case
 Test Case	Inputs-1
-•		Maximal Substring Consisting
-•		lea@st one wor2d
-•		1254  98076
-•		& * (  ) % # $
-•		letters and spaces
+1.		Maximal Substring Consisting
+2.		lea@st one wor2d
+3.		1254  98076
+4.		& * (  ) % # $
+5.		letters and spaces
 
+PROGRAM
+import java.util.*;
+public class DAY5LENGTHOFLASTWORD
+{
+    public static void main(String[] args)
+    {
+
+        Scanner sc=new Scanner(System.in);
+        String str1;
+
+        System.out.println("Enter the string:");
+        str1=sc.nextLine();
+        System.out.println("Original String: "+str1);
+        System.out.println("Length of the last word of the above string: "+length_Of_last_word(str1));
+    }
+
+    public static int length_Of_last_word(String str1) {
+        int length_word = 0;
+        String[] words = str1.split(" ");
+        if(words.length>0) {
+            length_word = words[words.length-1].length();
+        } else {
+            length_word = 0;
+        }
+        return length_word;
+    }
+}
+
+
+14.	Write a program to read a character until a * is encountered. Also count the number of uppercase, lowercase, and numbers entered by the users.
+Sample Input:
+Enter * to exit…
+Enter any character: W
+Enter any character: d
+Enter any character: A
+Enter any character: G
+Enter any character: g
+Enter any character: H
+Enter any character: *
+Sample Output:
+Total count of lower case:2
+Total count of upper case:4
+Total count of numbers =0
+
+Test Case
+Test Case	Inputs-1
+1.		1,7,6,9,5
+2.		S, Q, l, K,7, j, M
+3.		M, j, L, &, @, G
+4.		D, K, I, 6, L, *
+5.		*, K, A, e, 1, 8, %, *
+
+PROGRAM
+
+	
+import java.util.*;
+public class DAY3READLOWERCASEUPPERCASENUMBERS
+{
+    public static void main(String[] args)
+    {
+        try
+        {
+            Scanner input = new Scanner(System.in);
+            char ch = '0';
+            int up_c =0;
+            int lo_c = 0,num_c=0;
+            while (ch != '*')
+            {
+                System.out.print("enter the character:- ");
+                ch = input.next().charAt(0);
+                if(Character.isUpperCase(ch))
+                {
+                    up_c++;
+                }
+                else if(Character.isLowerCase(ch))
+                {
+                    lo_c++;
+                }
+                else if(Character.isDigit(ch))
+                {
+                    num_c++;
+                }
+
+            }
+            if(up_c==0 && lo_c==0 && num_c==0)
+            {
+                System.out.println("invalid input");
+            }
+            else
+            {
+                System.out.println("the no.of.uppercase is "+up_c);
+                System.out.println("the no.of.lowercase is "+(lo_c));
+                System.out.println("the no.of.numbers is "+num_c);
+            }
+        }
+        catch(Exception e){
+            System.out.println("invalid input");
+        }
+    }
+}
+
+
+15.	Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
+•	I can be placed before V (5) and X (10) to make 4 and 9. 
+•	X can be placed before L (50) and C (100) to make 40 and 90. 
+•	C can be placed before D (500) and M (1000) to make 400 and 900.
+Given a roman numeral, convert it to an integer.
+Example:
+Input: s = "III"
+Output: 3
+Test Case	Inputs
+1.		LVIII
+2.		MCMXCI
+3.		V
+4.		LZAII
+5.		MCCDTIV
+
+
+	
+PROGRAM
+import java.util.*;
+public class romannumbertonumber {
+
+    public static int romanToInt(String s) {
+
+        Map<Character, Integer> romanMap = new HashMap<>();
+        romanMap.put('I', 1);
+        romanMap.put('V', 5);
+        romanMap.put('X', 10);
+        romanMap.put('L', 50);
+        romanMap.put('C', 100);
+        romanMap.put('D', 500);
+        romanMap.put('M', 1000);
+        int n = s.length();
+        int num = romanMap.get(s.charAt(n - 1));
+        for (int i = n - 2; i >= 0; i--) {
+            if (romanMap.get(s.charAt(i)) >= romanMap.get(s.charAt(i + 1))) {
+                num += romanMap.get(s.charAt(i));
+            } else {
+                num -= romanMap.get(s.charAt(i));
+            }
+        }
+        return num;
+    }
+    public static void main(String args[]){
+        Scanner lol=new Scanner(System.in);
+        System.out.println("Enter a Roman number :");
+        String str=lol.nextLine().toUpperCase();
+        int flag=1;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)=='I' || str.charAt(i)=='X' || str.charAt(i)=='V'|| str.charAt(i)=='C' || str.charAt(i)=='D' || str.charAt(i)=='L' || str.charAt(i)=='M'  )
+            {
+                flag=0;
+            }
+            else{
+                flag=1;
+                break;
+            }
+        }
+        if(flag==0){
+            System.out.println(romanToInt(str));
+        }
+        else{
+            System.out.println("Invalid Input...");
+        }
+    }
+}
+
+
+16.	Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise. Each letter in magazine can only be used once in ransomNote.
+Example 1:
+Input: ransomNote = "a", magazine = "b"
+Output: false
+
+Test Case
+Test Case	Inputs
+1.		ransomNote = "aa", magazine = "ab"
+2.		ransomNote = "aa", magazine = "aab"
+3.		ransomNote = "abc", magazine = "abc"
+4.		ransomNote = "good", magazine = "better"
+5.		ransomNote = "xyz", magazine = "123"
+
+PROGRAM
+
+	
+import java.util.*;
+public class RANSOMNOTEANDMAGAZINE {
+    public static void main(String[] args){
+        try{
+            String s1,s2;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("ransom note:");
+            s1=sc.next();
+            System.out.println("magazine=");
+            s2=sc.next();
+            boolean k=ransom(s1,s2);
+            System.out.println(k);
+
+        }
+        catch(Exception e)
+        {
+            System.out.println("enter valid input.");
+        }
+    }
+    public static boolean ransom(String s1,String s2)
+    {
+        int count[]=new int[300];
+        char s3[]=s2.toCharArray();
+        for(int i=0;i<s3.length;i++)
+        {
+            count[s3[i]]++;
+        }
+        char s4[]=s1.toCharArray();
+        for(int i=0;i<s4.length;i++)
+        {
+            if(count[s4[i]]==0)
+                return false;
+            count[s4[i]]--;
+        }
+        return true;
+    }
+
+}
+
+
+17.	You are given an m x n binary matrix mat of 1's (representing soldiers) and 0's (representing civilians). The soldiers are positioned in front of the civilians. That is, all the 1's will appear to the left of all the 0's in each row.
+A row i is weaker than a row j if one of the following is true:
+The number of soldiers in row i is less than the number of soldiers in row j.
+Both rows have the same number of soldiers and i < j. Return the indices of the k weakest rows in the matrix ordered from weakest to strongest.
+
+ Example 1:
+Input: mat = 
+[[1,1,0,0,0],
+ [1,1,1,1,0],
+ [1,0,0,0,0],
+ [1,1,0,0,0],
+ [1,1,1,1,1]], 
+k = 3
+Output: [2,0,3]
+Explanation: 
+The number of soldiers in each row is: 
+- Row 0: 2 
+- Row 1: 4 
+- Row 2: 1 
+- Row 3: 2 
+- Row 4: 5 
+The rows ordered from weakest to strongest are [2,0,3,1,4].
+
+
+import java.util.*;
+
+public class Main {
+    public static int[] kWeakestRows(int[][] mat, int k) {
+        int m = mat.length;
+        int n = mat[0].length;
+
+        // Create a list to store row indices and the corresponding count of soldiers
+        List<int[]> rows = new ArrayList<>();
+
+        // Count soldiers in each row and store the result in the rows list
+        for (int i = 0; i < m; i++) {
+            int count = 0;
+            for (int j = 0; j < n; j++) {
+                if (mat[i][j] == 1) {
+                    count++;
+                } else {
+                    break; // Since 1's appear before 0's, we can break when encountering the first 0
+                }
+            }
+            rows.add(new int[]{i, count});
+        }
+
+        // Sort the rows based on soldier count and row index
+        Collections.sort(rows, (a, b) -> {
+            if (a[1] != b[1]) {
+                return Integer.compare(a[1], b[1]);
+            } else {
+                return Integer.compare(a[0], b[0]);
+            }
+        });
+
+        // Extract the first k row indices from the sorted list
+        int[] result = new int[k];
+        for (int i = 0; i < k; i++) {
+            result[i] = rows.get(i)[0];
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[][] mat = {
+            {1, 1, 0, 0, 0},
+            {1, 1, 1, 1, 0},
+            {1, 0, 0, 0, 0},
+            {1, 1, 0, 0, 0},
+            {1, 1, 1, 1, 1}
+        };
+
+        int k = 3;
+
+        int[] result = kWeakestRows(mat, k);
+
+        System.out.println("Indices of the k weakest rows: " + Arrays.toString(result));
+    }
+}
+
+
+
+
+	
+
+18.Given an integer num, return the number of steps to reduce it to zero. In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+
+Example 1:
+Input: num = 14
+Output: 6
+Explanation: 
+Step 1) 14 is even; divide by 2 and obtain 7. 
+Step 2) 7 is odd; subtract 1 and obtain 6.
+Step 3) 6 is even; divide by 2 and obtain 3. 
+Step 4) 3 is odd; subtract 1 and obtain 2. 
+Step 5) 2 is even; divide by 2 and obtain 1. 
+Step 6) 1 is odd; subtract 1 and obtain 0.
+
+Test Case
+Test Case	Inputs
+1.		n = 5
+2.		n = 10
+3.		n = 12
+4.		n = 18
+5.		n = 20
+PROGRAM
+
+	
+import java.io.*;
+        import java.util.*;
+class DAY5DIVISIBLEBY2ANDSUBTRACT
+{
+    public static void main(String arg[])
+    {
+        try
+        {
+            Scanner sc=new Scanner(System.in);
+            int n,s=0;
+            System.out.println("Enter the number:");
+            n=sc.nextInt();
+            while(n>0)
+            {
+                if(n%2==0)
+                {
+                    n=n/2;
+                }
+                else
+                {
+                    n--;
+                }
+                s++;
+            }
+            System.out.println("The no.of.steps:"+s);
+        }
+        catch(Exception e)
+        {
+            System.out.println("Due to string exception");
+        }
+    }
+}
+
+
+19.	Develop a programme that uses Multiple Inheritance concepts to compute a student's grades in six subjects. The total and aggregate are then calculated, and the student's grade is displayed. If the student achieves an aggregate of more than 75%, the grade is Distinction. If the aggregate is between 60 and 75, the grade is First Division. If the aggregate is between 50 and 60, the grade is Second Division. If the aggregate is between 40 and 50, the grade is Third Division. Otherwise, the grade is FAIL.
+Sample Input & Output:
+Enter the marks in python: 90
+Enter the marks in c programming: 91
+Enter the marks in Mathematics: 92
+Enter the marks in Physics: 93
+Enter the marks in Chemistry: 92
+Enter the marks in Professional Ethics: 93
+Total= 551
+Aggregate = 91.83
+Class: DISTINCTION
+
+Test Case
+Test Case	Inputs
+1.		18, 76,93,65,63,98
+2.		73,78,79,75,87,0
+3.		98,106,120,95,98,34
+4.		96,73, -85,95,84,98
+5.		78,59.8,76,79,97,67
+PROGRAM
+
+	
+import java.util.*;
+public class grade{
+    public static void main(String[] args) {
+        try {
+            float m1, m2, m3, m4, m5, m6;
+            Scanner sc = new Scanner(System.in);
+            System.out.println("enter marks in python:");
+            m1 = sc.nextInt();
+            System.out.println("enter marks in c programming:");
+            m2 = sc.nextInt();
+            System.out.println("enter marks in mathematics:");
+            m3 = sc.nextInt();
+            System.out.println("enter marks in physics:");
+            m5 = sc.nextInt();
+            System.out.println("enter marks in chemistry:");
+            m6 = sc.nextInt();
+            System.out.println("enter marks in professional ethics:");
+            m4 = sc.nextInt();
+            if (m1 > 100  || m2 > 100 || m3 > 100 || m4 > 100 || m5 > 100 || m6 > 100)
+            {
+                throw new NullPointerException("invalid due to higher values.");
+            }
+            if (m1 <0  || m2 <0 || m3 <0 || m4 <0 || m5 < 0 || m6 < 0)
+            {
+                throw new ArithmeticException("invalid due to higher values.");
+            }
+
+
+            float total=m1+m2+m3+m4+m5+m6;
+            float agg=total/6;
+            System.out.println("TOTAL= " + total);
+            System.out.println("Aggregate=" + agg);
+
+            if(agg>75)
+            {
+                System.out.println("DISTINCTION");
+            }
+            else if(agg>=60 && agg<75)
+            {
+                System.out.println("FIRST DIVISION");
+            }
+            else if(agg>=50 && agg<60)
+            {
+                System.out.println("SECOND DIVISION");
+            }
+            else if(agg>=40 && agg<50)
+            {
+                System.out.println("THIRD DIVISION");
+            }
+            else
+            {
+                System.out.println("FAIL");
+            }
+        }
+        catch(NullPointerException e)
+        {
+            System.out.println("invalid due to higher values.");
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("invalid due to negative values.");
+        }
+        catch(Exception e)
+        {
+            System.out.println("invalid due to floating values.");
+        }
+
+
+    }
+}
+
+
+20.	Write a program to calculate tax given the following conditions:
+a.	If income is less than or equal to 2,50,000 then no tax
+b.	If taxable income is 2,50,001 – 5,00,000 the charge 10% tax
+c.	If taxable income is 5,00,001 – 10,00,000 the charge 20% tax
+d.	If taxable income is above 10,00,001 then charge 30% tax
+Sample Input:
+Enter the income: 600000
+Sample Output:
+Taxable Income: 350000
+Tax= 35000
+
+Test Case
+Test Case	Inputs
+1.		400700
+2.		2789239
+3.		150000
+4.		00000
+5.		-125486
+PROGRAM
+import java.util.*;
+
+public class DAY3TAX{
+    public static void main(String[] Args){
+        Scanner sc =  new Scanner(System.in);
+
+        System.out.println("Enter Income : ");
+        int inc = sc.nextInt();
+        float tax;
+
+        if(inc > 0){
+            if(inc<=150000){
+                tax = 0;
+            }
+            else if(inc>150000 && inc<=300000){
+                tax =(float)(0.1*inc);
+            }
+            else if(inc>300000 && inc<=500000){
+                tax = (float)(0.2*inc);
+            }
+            else{
+                tax = (float)(0.3*inc);
+            }
+
+            System.out.println("Tax : " + tax);
+        }
+        else{
+            System.out.println("Enter a Valid Income");
+        }
+
+
+
+    }
+}
 
 
 
