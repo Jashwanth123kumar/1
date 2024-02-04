@@ -1463,7 +1463,17 @@ public class ft {
     	    	            }
     	    	        }
     	    }
-}
+}                                                                 
+
+
+
+
+
+                                       MEDIUM ANSWERS
+
+
+
+
 
 40.	Write a program to count all the prime and composite numbers entered by the user.
 
